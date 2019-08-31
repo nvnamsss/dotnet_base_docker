@@ -8,7 +8,7 @@ RUN apt update
 
 RUN apt install -y mono-devel
 
-RUN -q https://packages.microsoft.com/config/ubuntu/18.04/packages-microsoft-prod.deb -O packages-microsoft-prod.deb
+RUN wget -q https://packages.microsoft.com/config/ubuntu/18.04/packages-microsoft-prod.deb -O packages-microsoft-prod.deb
 RUN dpkg -i packages-microsoft-prod.deb
 
 RUN add-apt-repository universe
