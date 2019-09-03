@@ -12,5 +12,11 @@
 - Then using
 
 ## Example
-docker pull nvnam/dotnet-base-docker
+Pull this image into your host machine:
+```
+docker pull nvnam/dotnet-base-docker </br>
+```
+Using this Image in Dockerfile:
+```
 FROM nvnam/dotnet-base-docker
+```
