@@ -20,3 +20,4 @@ RUN apt-get update
 RUN apt-get install -y dotnet-sdk-2.2
 
 RUN apt-get install nuget
+RUN apt-get install -y ffmpeg
