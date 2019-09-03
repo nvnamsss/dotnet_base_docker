@@ -1,0 +1,20 @@
+# Dotnet Base Docker
+
+# [Version 1.01] - Release date: 03/09/19
+## Packages
+- FFMPEG is added into list apt for post-processing such as easy encoding
+
+## Bash
+- Fixed an issue in bash script that caused image failed to be pushed into dockerhub 
+
+# [Version 1.00] - Release data: 31/08/19
+## Base
+- Image is now using ubuntu:18.04
+
+## Packages
+- Image is contained:
+	+ software-properties-common: for common packages
+	+ wget: for downloading
+	+ mono: for running cross-platform .NET application
+	+ dotnet-sdk: for using .NET service
+	+ nuget: for downloading nuget packages
